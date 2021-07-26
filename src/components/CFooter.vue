@@ -11,20 +11,20 @@
           <TwitterIcon />
         </a>
         <a
-          href="https://zenn.dev/kis9a"
-          target="_blank"
-          aria-label="document"
-          rel="noopener"
-        >
-          <DocumentIcon />
-        </a>
-        <a
           href="https://github.com/kis9a"
           target="_blank"
           aria-label="github"
           rel="noopener"
         >
           <GithubIcon />
+        </a>
+        <a
+          href="https://me.kis9a.com"
+          target="_blank"
+          aria-label="document"
+          rel="noopener"
+        >
+          <DocumentIcon />
         </a>
       </div>
     </div>
@@ -62,10 +62,10 @@ export default defineComponent({
 
 a {
   padding: 4px 5px;
+  margin: auto 0;
 }
 
 .ion {
-  font-size: 13px;
   color: black;
 }
 
